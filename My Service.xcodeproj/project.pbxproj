@@ -12,6 +12,11 @@
 		FA3B09581EF25CFC00A37C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B09561EF25CFC00A37C01 /* Main.storyboard */; };
 		FA3B095A1EF25CFC00A37C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3B09591EF25CFC00A37C01 /* Assets.xcassets */; };
 		FA3B095D1EF25CFC00A37C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B095B1EF25CFC00A37C01 /* LaunchScreen.storyboard */; };
+		FA3B09651EF27DFD00A37C01 /* AddNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B09641EF27DFD00A37C01 /* AddNewUserViewController.swift */; };
+		FA3B096B1EF2833D00A37C01 /* snru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096A1EF2833D00A37C01 /* snru.jpg */; };
+		FA3B096F1EF2858700A37C01 /* ic_account_circle_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096C1EF2858700A37C01 /* ic_account_circle_2x.png */; };
+		FA3B09701EF2858700A37C01 /* ic_account_circle_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096D1EF2858700A37C01 /* ic_account_circle_3x.png */; };
+		FA3B09711EF2858700A37C01 /* ic_account_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096E1EF2858700A37C01 /* ic_account_circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FA3B09591EF25CFC00A37C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3B095C1EF25CFC00A37C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3B095E1EF25CFC00A37C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3B09641EF27DFD00A37C01 /* AddNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewUserViewController.swift; sourceTree = "<group>"; };
+		FA3B096A1EF2833D00A37C01 /* snru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snru.jpg; path = ../../../../Desktop/snru.jpg; sourceTree = "<group>"; };
+		FA3B096C1EF2858700A37C01 /* ic_account_circle_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_circle_2x.png; path = ../../../../Downloads/ic_account_circle_black_24dp/ios/ic_account_circle.imageset/ic_account_circle_2x.png; sourceTree = "<group>"; };
+		FA3B096D1EF2858700A37C01 /* ic_account_circle_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_circle_3x.png; path = ../../../../Downloads/ic_account_circle_black_24dp/ios/ic_account_circle.imageset/ic_account_circle_3x.png; sourceTree = "<group>"; };
+		FA3B096E1EF2858700A37C01 /* ic_account_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_circle.png; path = ../../../../Downloads/ic_account_circle_black_24dp/ios/ic_account_circle.imageset/ic_account_circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				FA3B09521EF25CFC00A37C01 /* AppDelegate.swift */,
+				FA3B096C1EF2858700A37C01 /* ic_account_circle_2x.png */,
+				FA3B096D1EF2858700A37C01 /* ic_account_circle_3x.png */,
+				FA3B096E1EF2858700A37C01 /* ic_account_circle.png */,
+				FA3B096A1EF2833D00A37C01 /* snru.jpg */,
 				FA3B09541EF25CFC00A37C01 /* ViewController.swift */,
+				FA3B09641EF27DFD00A37C01 /* AddNewUserViewController.swift */,
 				FA3B09561EF25CFC00A37C01 /* Main.storyboard */,
 				FA3B09591EF25CFC00A37C01 /* Assets.xcassets */,
 				FA3B095B1EF25CFC00A37C01 /* LaunchScreen.storyboard */,
@@ -125,7 +140,11 @@
 			files = (
 				FA3B095D1EF25CFC00A37C01 /* LaunchScreen.storyboard in Resources */,
 				FA3B095A1EF25CFC00A37C01 /* Assets.xcassets in Resources */,
+				FA3B09701EF2858700A37C01 /* ic_account_circle_3x.png in Resources */,
 				FA3B09581EF25CFC00A37C01 /* Main.storyboard in Resources */,
+				FA3B09711EF2858700A37C01 /* ic_account_circle.png in Resources */,
+				FA3B096F1EF2858700A37C01 /* ic_account_circle_2x.png in Resources */,
+				FA3B096B1EF2833D00A37C01 /* snru.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3B09551EF25CFC00A37C01 /* ViewController.swift in Sources */,
+				FA3B09651EF27DFD00A37C01 /* AddNewUserViewController.swift in Sources */,
 				FA3B09531EF25CFC00A37C01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

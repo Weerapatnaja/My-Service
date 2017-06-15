@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //Process  Connected Http
-        let urlPHP = "http://swiftcodingthai.com"
+        let urlPHP = "http://androidthai.in.th"
         //Change String to url String
         let myURL = URL(string: urlPHP)
         
