@@ -17,6 +17,9 @@
 		FA3B096F1EF2858700A37C01 /* ic_account_circle_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096C1EF2858700A37C01 /* ic_account_circle_2x.png */; };
 		FA3B09701EF2858700A37C01 /* ic_account_circle_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096D1EF2858700A37C01 /* ic_account_circle_3x.png */; };
 		FA3B09711EF2858700A37C01 /* ic_account_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B096E1EF2858700A37C01 /* ic_account_circle.png */; };
+		FA3B097B1EF2892A00A37C01 /* ic_chevron_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B09781EF2892A00A37C01 /* ic_chevron_left_2x.png */; };
+		FA3B097C1EF2892A00A37C01 /* ic_chevron_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B09791EF2892A00A37C01 /* ic_chevron_left_3x.png */; };
+		FA3B097D1EF2892A00A37C01 /* ic_chevron_left.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B097A1EF2892A00A37C01 /* ic_chevron_left.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		FA3B096C1EF2858700A37C01 /* ic_account_circle_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_circle_2x.png; path = ../../../../Downloads/ic_account_circle_black_24dp/ios/ic_account_circle.imageset/ic_account_circle_2x.png; sourceTree = "<group>"; };
 		FA3B096D1EF2858700A37C01 /* ic_account_circle_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_circle_3x.png; path = ../../../../Downloads/ic_account_circle_black_24dp/ios/ic_account_circle.imageset/ic_account_circle_3x.png; sourceTree = "<group>"; };
 		FA3B096E1EF2858700A37C01 /* ic_account_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_account_circle.png; path = ../../../../Downloads/ic_account_circle_black_24dp/ios/ic_account_circle.imageset/ic_account_circle.png; sourceTree = "<group>"; };
+		FA3B09781EF2892A00A37C01 /* ic_chevron_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left_2x.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left_2x.png; sourceTree = "<group>"; };
+		FA3B09791EF2892A00A37C01 /* ic_chevron_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left_3x.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left_3x.png; sourceTree = "<group>"; };
+		FA3B097A1EF2892A00A37C01 /* ic_chevron_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 		FA3B09511EF25CFC00A37C01 /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				FA3B09781EF2892A00A37C01 /* ic_chevron_left_2x.png */,
+				FA3B09791EF2892A00A37C01 /* ic_chevron_left_3x.png */,
+				FA3B097A1EF2892A00A37C01 /* ic_chevron_left.png */,
 				FA3B09521EF25CFC00A37C01 /* AppDelegate.swift */,
 				FA3B096C1EF2858700A37C01 /* ic_account_circle_2x.png */,
 				FA3B096D1EF2858700A37C01 /* ic_account_circle_3x.png */,
@@ -138,12 +147,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3B097D1EF2892A00A37C01 /* ic_chevron_left.png in Resources */,
 				FA3B095D1EF25CFC00A37C01 /* LaunchScreen.storyboard in Resources */,
 				FA3B095A1EF25CFC00A37C01 /* Assets.xcassets in Resources */,
 				FA3B09701EF2858700A37C01 /* ic_account_circle_3x.png in Resources */,
 				FA3B09581EF25CFC00A37C01 /* Main.storyboard in Resources */,
+				FA3B097B1EF2892A00A37C01 /* ic_chevron_left_2x.png in Resources */,
 				FA3B09711EF2858700A37C01 /* ic_account_circle.png in Resources */,
 				FA3B096F1EF2858700A37C01 /* ic_account_circle_2x.png in Resources */,
+				FA3B097C1EF2892A00A37C01 /* ic_chevron_left_3x.png in Resources */,
 				FA3B096B1EF2833D00A37C01 /* snru.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
