@@ -94,7 +94,11 @@
                                 <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="dsE-Xa-Fdb"/>
-                                    <barButtonItem title="Save New User to Server" id="0OE-cy-h2m"/>
+                                    <barButtonItem title="Save New User to Server" id="0OE-cy-h2m">
+                                        <connections>
+                                            <action selector="saveButton:" destination="6oy-yR-gl1" id="aBm-1i-rTc"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="7mh-7O-Rn2"/>
                                 </items>
                             </toolbar>
@@ -125,6 +129,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextFileld" destination="eG1-Ra-08A" id="FH3-AI-w8G"/>
+                        <outlet property="passwordTextField" destination="CBj-bs-DrV" id="eN6-oh-LpB"/>
+                        <outlet property="userTextField" destination="cXa-QB-sr7" id="yB9-Gm-VZ2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qr9-Sc-tte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
