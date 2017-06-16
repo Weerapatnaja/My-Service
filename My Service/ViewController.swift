@@ -38,6 +38,9 @@ class ViewController: UIViewController {
         }else{
         
             alertLabel.alpha = 0
+            let strUrl = "http://androidthai.in.th/snru/getUserWhereBenz.php?isAdd=true&Name=benz&User=" + strUser! + ""
+            print("strUrl ==> \(strUrl)")
+            readJson(strURL: strUrl)
             
         }   // if
         
@@ -72,10 +75,19 @@ class ViewController: UIViewController {
                             let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
                             let strJSON = dataString as Any
                             print("strJSON ==> \(strJSON)")
+                            
+                           let strKey = ","
+                            if let myContentArray = dataString?.components (separatedBy: strKey) {
+                        
+                                print("myContentArray[2] ==> \(myContentArray[2])")
+                                print("myContentArray[3] ==> \(myContentArray[3])")
+                            }   // if
+                           
+                            
         
                         }
                         
-                    }
+                    }   // if1
                 
                     
                     
