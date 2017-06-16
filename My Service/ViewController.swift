@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Explicit
+    var myString = " "
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +30,7 @@ class ViewController: UIViewController {
             data, response, error in
         
             if error != nil {
-                print("Error ==> \(error)")
+                print("Error")
             }   else{
             
                 if let unwrappedData = data {
