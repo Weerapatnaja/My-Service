@@ -20,6 +20,7 @@
 		FA3B097B1EF2892A00A37C01 /* ic_chevron_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B09781EF2892A00A37C01 /* ic_chevron_left_2x.png */; };
 		FA3B097C1EF2892A00A37C01 /* ic_chevron_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B09791EF2892A00A37C01 /* ic_chevron_left_3x.png */; };
 		FA3B097D1EF2892A00A37C01 /* ic_chevron_left.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B097A1EF2892A00A37C01 /* ic_chevron_left.png */; };
+		FABFF3F01EF3D2760081CDD8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF3EF1EF3D2760081CDD8 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FA3B09781EF2892A00A37C01 /* ic_chevron_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left_2x.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left_2x.png; sourceTree = "<group>"; };
 		FA3B09791EF2892A00A37C01 /* ic_chevron_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left_3x.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left_3x.png; sourceTree = "<group>"; };
 		FA3B097A1EF2892A00A37C01 /* ic_chevron_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_chevron_left.png; path = ../../../../Downloads/ic_chevron_left_black_24dp/ios/ic_chevron_left.imageset/ic_chevron_left.png; sourceTree = "<group>"; };
+		FABFF3EF1EF3D2760081CDD8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				FA3B09541EF25CFC00A37C01 /* ViewController.swift */,
 				FA3B09641EF27DFD00A37C01 /* AddNewUserViewController.swift */,
 				FA3B09561EF25CFC00A37C01 /* Main.storyboard */,
+				FABFF3EF1EF3D2760081CDD8 /* MapViewController.swift */,
 				FA3B09591EF25CFC00A37C01 /* Assets.xcassets */,
 				FA3B095B1EF25CFC00A37C01 /* LaunchScreen.storyboard */,
 				FA3B095E1EF25CFC00A37C01 /* Info.plist */,
@@ -170,6 +173,7 @@
 				FA3B09551EF25CFC00A37C01 /* ViewController.swift in Sources */,
 				FA3B09651EF27DFD00A37C01 /* AddNewUserViewController.swift in Sources */,
 				FA3B09531EF25CFC00A37C01 /* AppDelegate.swift in Sources */,
+				FABFF3F01EF3D2760081CDD8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,7 @@
 				FA3B09631EF25CFC00A37C01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

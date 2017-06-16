@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     
     @IBAction func loginButton(_ sender: Any) {
         
+       
+        
         //Gat value From TextField
         strUser = userTextfield.text
         strPassword = passwordTexrfield.text
@@ -76,11 +78,36 @@ class ViewController: UIViewController {
                             let strJSON = dataString as Any
                             print("strJSON ==> \(strJSON)")
                             
+//                            if dataString != nil {
+//                            
+//                                print("dataString not nil")
+//                            } else{
+//                            
+//                                print("dataString nil")
+//                            }
+                            
+                            
+                            
+                            
+                            
                            let strKey = ","
                             if let myContentArray = dataString?.components (separatedBy: strKey) {
                         
                                 print("myContentArray[2] ==> \(myContentArray[2])")
                                 print("myContentArray[3] ==> \(myContentArray[3])")
+                                
+                                //Check Password
+                                let myPassword = "\"Password\":\"" + self.strPassword! + "\"}]"
+                                if myPassword == myContentArray[3] {
+                                    //Password True
+                                    print("Password True")
+                             //       performSegue(withIdentifier: "GoToMap", sender: self)
+
+                                }   else {
+                                    //Password False
+                                    print("Password False")
+                                }
+                                
                             }   // if
                            
                             
