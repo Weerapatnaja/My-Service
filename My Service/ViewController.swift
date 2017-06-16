@@ -12,44 +12,81 @@ class ViewController: UIViewController {
     
     //Explicit
     var myString = " "
+    var strUser: String? = nil
+    var strPassword: String? = nil
     
     
     
+    
+    
+    
+    @IBOutlet weak var userTextfield: UITextField!
+    
+    @IBOutlet weak var passwordTexrfield: UITextField!
+    
+    @IBOutlet weak var alertLabel: UILabel!
+    
+    @IBAction func loginButton(_ sender: Any) {
+        
+        //Gat value From TextField
+        strUser = userTextfield.text
+        strPassword = passwordTexrfield.text
+        
+        //Check Space
+        if (strUser?.characters.count == 0) || (strPassword?.characters.count == 0) {
+            alertLabel.alpha = 1
+        }else{
+        
+            alertLabel.alpha = 0
+            
+        }   // if
+        
+        
+    }   //LoginButton
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Process  Connected Http
-        let urlPHP = "http://androidthai.in.th"
-        //Change String to url String
-        let myURL = URL(string: urlPHP)
-        
-        let reqrese = NSMutableURLRequest(url: myURL!)
-        let task = URLSession.shared.dataTask(with: reqrese as URLRequest){
-            data, response, error in
-        
-            if error != nil {
-                print("Error")
-            }   else{
-            
-                if let unwrappedData = data {
-                
-                    let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
-                    let strJSON = dataString as Any
-                    print("strJSON ==> \(strJSON)")
-                    
-                }
-                
-            }
-        
-            
-            
-        }
-        task.resume( )
         
        
     } //Main Methond
+    
+    func readJson(strURL: String) -> Void {
+        
+                //Process  Connected Http
+                let urlPHP = strURL
+                //Change String to url String
+                let myURL = URL(string: urlPHP)
+        
+                let reqrese = NSMutableURLRequest(url: myURL!)
+                let task = URLSession.shared.dataTask(with: reqrese as URLRequest){
+                    data, response, error in
+        
+                    if error != nil {
+                        print("Error")
+                    }   else{
+        
+                        if let unwrappedData = data {
+        
+                            let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
+                            let strJSON = dataString as Any
+                            print("strJSON ==> \(strJSON)")
+        
+                        }
+                        
+                    }
+                
+                    
+                    
+                }
+                task.resume( )
+
+        
+        
+    }   //readJson
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

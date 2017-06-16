@@ -68,7 +68,18 @@
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3J-y2-WNc"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prese Fill All Black" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvI-Lz-Fsb">
+                                <rect key="frame" x="109" y="324" width="157" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -78,6 +89,11 @@
                             <constraint firstItem="u9F-te-mIi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jK9-kZ-8iO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alertLabel" destination="dvI-Lz-Fsb" id="fMO-xA-7Ut"/>
+                        <outlet property="passwordTexrfield" destination="PUO-YT-PVS" id="2KO-Xa-oZg"/>
+                        <outlet property="userTextfield" destination="yu9-HI-lFJ" id="geJ-2n-usf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
